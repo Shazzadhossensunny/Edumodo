@@ -1,0 +1,1199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body{
+   font-family: 'Work Sans', sans-serif;
+   font-size: 14px;
+   line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+	line-height: unset;
+}
+
+a, a:hover{
+	text-decoration: none;
+
+}
+a:-webkit-any-link:focus {
+    outline-offset: 0px!important;
+}
+
+p{
+	margin: 0;
+}
+
+.isStuck{
+    left:0px;
+    width:100%;
+}
+/**************************************************************
+           main css code start
+*****************************************************************/
+
+
+/*header section css*/
+.header-section{
+	width: 100%;
+	position: relative;
+	
+}
+.header-section img{
+	max-width: 100%;
+}
+.banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.vh-950{
+	min-height: 950px;
+}
+.header-section .menu-section{
+    max-width: 100%;
+}
+
+.header-section .navbar-wrapper{
+  width: 100%;
+  position: relative;
+  z-index: 15;
+  background: rgba(0, 0, 0, 0.4);
+
+
+}
+
+
+.menu-section .navbar-nav .nav-link {
+    margin-right: 20px;
+}
+.menu-section .navbar-light .navbar-nav .active>.nav-link{
+	color: #ffc178;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 2px solid #ffc178;
+    padding-bottom: 0;
+    transition: all 0.5s;
+
+}
+
+.menu-section .navbar-light .navbar-nav .active>.nav-link:hover{
+    padding: 3px 20px;
+    background: #252c3a;
+    color: #fff;
+    border-radius: 20px;
+    border-bottom: 0;
+}
+.menu-section .navbar-light .navbar-nav .nav-link {
+    color: #708189;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 0;
+}
+
+.menu-section .navbar-light .navbar-nav .nav-link:hover{
+    border-bottom: 2px solid #ffc178;
+    color: #ffc178;
+    transition: 0.5s;
+  
+}
+.menu-section .nav-item .btn-info {
+	font-size: 16px;
+	font-weight: 600;
+    border: 0;
+    background: #fff;
+    color: #ffc178;
+    padding: 8px 30px;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+
+.menu-section .nav-item .btn-info:hover,.menu-section .nav-item .btn-info:focus{
+	background: #ffc178;
+	color: #708189;
+	box-shadow: none!important;
+
+}
+
+.btn-info:not(:disabled):not(.disabled).active:focus, .btn-info:not(:disabled):not(.disabled):active:focus, .show>.btn-info.dropdown-toggle:focus {
+    box-shadow: none!important;
+    border: 0;
+}
+
+.banner-section{
+  width: 100%;
+
+}
+
+
+
+.banner-content{
+	width: 100%;
+	text-align: left;
+    padding-top: 220px;
+    padding-left: 50px;
+     /*position: absolute;
+     top: 22%;*/
+}
+.banner-content h1{
+
+font-size: 35px;
+
+line-height: 45px;
+
+font-weight: 700;
+
+color: #ffc178;
+}
+
+.banner-content p{
+
+font-size: 15px;
+
+line-height: 25px;
+
+font-weight: 500;
+
+color: #708189;
+}
+
+.banner-content .btn-info{
+	
+font-size: 15px;
+	
+font-weight: 500;
+	
+border: 0;
+	
+background: #ffc178;
+	
+color: #fff;
+text-transform: capitalize;
+	
+padding: 10px 30px;
+margin-top: 30px;	
+border-radius: 30px;
+transition: 0.5s ease-in-out;
+
+}
+
+.banner-content .btn-info:hover, .banner-content .btn-info:focus{
+	background: transparent;
+	border: 0px solid #ffc178;
+	color: #708189;
+	box-shadow: none!important;
+}
+
+
+.btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle {
+   background: transparent;
+	border: 0px solid #ffc178;
+	color: #708189;
+	box-shadow: none;
+}
+/*header section css */
+
+/* our department section css*/
+.our-department{
+  width: 100%;
+  background: #fff;
+}
+
+
+.our-department .title-department{
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.our-department .title-department h1{
+font-size: 35px;
+
+line-height: 45px;
+
+font-weight: 700;
+
+color: #252c3a;
+}
+  
+
+.our-department .title-department p{
+font-size: 15px;
+
+line-height: 25px;
+
+font-weight: 500;
+
+color: #708189;
+}
+
+
+.our-department .department-img{
+     width: 100%;
+     padding: 50px 30px;
+     text-align: center;
+     margin-top: 40px;
+    
+}
+.department-img img{
+    width: 100%;
+}
+.our-department .department-img:hover{
+
+}
+.our-department .bg1{
+	background: #f9703a;
+	position: relative;
+	z-index: 1;
+
+}
+.our-department .bg2{
+	background: #80be41;
+
+}
+.our-department .bg3{
+	background: #ffb258;
+
+}
+.department-img h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+/* our department section css*/
+
+/*limitless section start*/
+.limitless-section{
+    width: 100%;
+   /* padding: 80px 0px;*/
+    position:relative;
+    padding-top: 120px;
+}
+.limitless-section img{
+     max-width: 100%;
+}
+
+.limit {
+    position: absolute;
+    top: -195px;
+    left: 0px;
+}
+
+.inner-img{
+   max-width: 100%;
+}
+
+.inner-img .play-btn {
+    position: absolute;
+    top: 31%;
+    cursor: pointer;
+    left: 38%;
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.modal-content{
+	background: transparent!important;
+	border: none!important;
+	padding: 0;
+
+
+}
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+}
+.inner-text{
+	width: 100%;
+
+}
+.inner-text h1{
+font-size: 35px;
+
+line-height: 45px;
+
+font-weight: 700;
+
+color: #252c3a;
+padding-bottom: 15px;
+}
+.inner-text p{
+font-size: 20px;
+line-height: 30px;
+font-weight: 500;
+color: #708189;
+margin-bottom: 30px;
+}
+
+.students{
+width: 100%;
+padding: 20px 0px;
+}
+.students h3{
+font-size: 50px;
+font-weight: 700;
+color: #ffba00;
+}
+.students p{
+ font-size: 24px;
+ font-weight: 400px;
+ color: #ffba00;
+}
+.Course {
+width: 100%;
+padding: 20px 0px;
+}
+.Course h3{
+font-size: 50px;
+font-weight: 700;
+color: #ff7485;
+
+}
+
+.Course p{
+ font-size: 24px;
+ font-weight: 400px;
+ color: #ff7485;
+
+}	
+
+.Hours{
+width: 100%;
+padding: 20px 0px;
+}
+.Hours h3{
+font-size: 50px;
+font-weight: 700;
+color: #43cb83;
+}
+.Hours p{
+font-size: 24px;
+ font-weight: 400px;
+ color: #43cb83;
+}
+/*limitless section start*/
+
+/*university css code*/
+.university-section{
+   width: 100%;
+   position: relative;
+   padding: 20px 0px 60px;
+}
+
+.university{
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+.university-section .title{
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.university-section .title h1{
+  font-size: 35px;
+
+line-height: 45px;
+
+font-weight: 700;
+
+color: #252c3a;
+padding-bottom: 50px;
+}
+.university-section .card {
+    border: 1px solid #f2f2f2;
+    box-shadow: 7px 7px 5px 0px rgba(242, 242, 244, 0.75);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.university-section .card .card-body {
+    padding: 15px 0px 0px 10px;
+}
+.university-section .card .card-title {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.university-section .card .card-text{
+     font-size: 13px;
+     padding: 0;
+     color: #86959d;
+}
+.university-section .card .btn-link {
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0;
+    color: #86959d;
+    margin-top: 15px;
+    font-weight: 700;
+}
+.university-section .card .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.university-section .card:hover .card-title{
+	color: #ffc178;
+	text-decoration: underline;
+}
+.university-section .card:hover .btn-link{
+	color: #000;
+
+	
+}
+.card-img-top{
+	padding: 0;
+}
+.university-section .mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+    margin: 0px -5px;
+}
+
+
+
+/*university css code*/
+
+/*widget css start */
+.widget{
+	width: 100%;
+	padding: 80px 0px;
+	background: #252c3a;
+	position: relative;
+	z-index: 1;
+}
+
+.widget .inner-focus{
+	width: 100%;
+}
+
+.widget .inner-focus p {
+    font-size: 13px;
+    color: #78797d;
+    font-weight: 400;
+    margin: 15px 0px;
+    border-bottom: 1px solid #303744;
+    padding-bottom: 15px;
+}
+.widget .inner-focus .social-icon{
+   max-width: 100%;
+}
+.widget .inner-focus .social-icon a {
+	font-size: 20px;
+    color: #4a4a4a;
+    text-decoration: none;
+    background-color: transparent;
+    margin: 0px 7px;
+}
+.widget .inner-focus .social-icon a:hover{
+	color: #0089fd;
+}
+.widget .inner-feature{
+	width: 100%;
+
+}
+.widget .inner-feature h5{
+    font-size: 18px;
+    color: #e2e3e5;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.widget .inner-feature p{
+    font-size: 13px;
+    color: #78797d;
+    font-weight: 400;
+    margin: 15px 0px;
+
+}
+
+.widget .inner-learning{
+	max-width: 100%;
+}
+
+.widget .inner-learning h5{
+	font-size: 18px;
+    color: #e2e3e5;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.widget .list-group-item {
+    position: relative;
+    display: block;
+    padding: 6px 0px;
+    background-color: transparent;
+    border: 0px;
+    color: #78797d;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.widget .inner-support{
+	width: 100%;
+}
+
+.widget .inner-support h5{
+	font-size: 18px;
+    color: #e2e3e5;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.widget .inner-support p{
+	 font-size: 13px;
+    color: #78797d;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+
+.widget .inner-support .form-inline {
+    position: relative;
+
+}
+.widget .inner-support .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0rem; 
+    transition: none; 
+    font-size: 12px;
+    
+}
+
+.widget .inner-support .form-control:focus {
+    box-shadow: none;
+}
+.widget .inner-support .btn-outline-success {
+	font-size: 12px;
+    color: #fff;
+    border-color: #ffc178;
+    background: #ffc178;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.widget .inner-support .btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-success.dropdown-toggle:focus {
+    box-shadow: none;
+  }
+.widget .inner-support .btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show>.btn-outline-success.dropdown-toggle {
+    color: #fff;
+    border-color: #ffc178;
+    background: #ffc178;
+}
+
+.widget .inner-support .btn-outline-success:not(:disabled):not(.disabled).hover, .btn-outline-success:not(:disabled):not(.disabled):hover, .show>.btn-outline-success.dropdown-toggle {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745
+
+}
+
+
+/*widget css end*/
+
+/*footer css start*/
+
+.footer{
+	width: 100%;
+	background: #1d232e;
+	padding: 15px 0px;
+}
+
+.footer .marr{
+	margin-top: 15px;
+}
+.footer .copyright{
+	font-size: 14px;
+	color: #5b5d5f;
+}
+
+.footer ul{
+   display:block;
+
+}
+
+.footer ul li{
+	font-size: 14px;
+	color: #5b5d5f;
+	display: inline-block;
+	list-style: none;
+    margin-left: 20px;
+}
+
+.footer ul li:hover{
+	color: #ffc178;
+}
+
+
+/*footer css end*/
+
+/************************************************
+         Meadia Queries
+**********************************************/
+
+@media (min-width: 1081px) and (max-width: 1440px) {
+    .vh-950 {
+    min-height: 720px;
+}
+
+.limitless-section img {
+    max-width: 50%;
+}
+
+.limit {
+    position: absolute;
+    top: -100px;
+    left: 0px;
+}
+
+.inner-img .play-btn {
+    top: 20%;
+    left: 60%;
+   
+}
+
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 1280px){
+
+.vh-950 {
+    min-height: 640px;
+}
+
+
+  }
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+ .vh-950 {
+    min-height: 400px;
+}
+  
+.banner-content {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.banner-content h1 {
+    font-size: 25px;
+    line-height: 35px;
+    
+}
+.banner-content .btn-info {
+    margin-top: 15px;
+    
+}
+
+.our-department .title-department h1 {
+    font-size: 25px;
+    line-height: 35px;
+    
+}
+
+.our-department .department-img {
+    padding: 50px 0px;
+    
+}
+
+.limitless-section img {
+    max-width: 50%;
+}
+.limit {
+    top: -60px;
+    
+}
+.inner-img .play-btn {
+    top: 17%;
+    left: 60%;
+  
+}
+
+.inner-text h1 {
+    font-size: 25px;
+    line-height: 35px;
+    
+}
+.inner-text p {
+    font-size: 14px;
+    margin-bottom: 50px;
+    
+}
+.students {
+     padding: 0px 0px;
+}
+.students h3 {
+    font-size: 35px;
+   
+}
+
+.students p {
+    font-size: 18px;
+    
+}
+
+.Course {
+    padding: 0px 0px;
+}
+.Course h3 {
+    font-size: 35px;
+   
+}
+
+.Course p {
+    font-size: 18px;
+    
+}
+
+.Hours {
+    padding: 0px 0px;
+}
+
+.Hours h3 {
+    font-size: 35px;
+   
+}
+
+.Hours p {
+    font-size: 18px;
+    
+}
+.university-section {
+    padding: 0px 0px 60px;
+}
+.university-section .col-md-3 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.university-section .title {
+    padding-top: 0px;
+}
+.university-section .card .card-title {
+    margin-bottom: 0;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.university-section .title h1 {
+    font-size: 30px;
+    line-height: 35px;
+    padding-bottom: 40px;
+}
+
+
+
+.widget {
+    padding: 50px 0px;
+}
+.widget .col-md-3 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.footer {
+    position: relative;
+    z-index: 1;
+}
+.footer .col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.footer .copyright {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+.text-right {
+    text-align: center!important;
+}
+.footer ul li {
+    font-size: 16px;
+    
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .vh-950 {
+        min-height: 265px;
+    }
+    .banner-content {
+        padding-top: 38px;
+        padding-left: 100px;
+    }
+    .banner-content h1 {
+        font-size: 20px;
+        line-height: 34px;
+        
+    }
+    .banner-content p {
+        font-size: 13px;
+        line-height: 20px;
+       
+    }
+    .banner-content .btn-info {
+        font-size: 13px;
+        padding: 5px 10px;
+        margin-top: 6px;
+        
+    }
+    .menu-section .navbar-light .navbar-nav .active>.nav-link {
+        font-size: 13px;
+       
+    }
+    .menu-section .navbar-light .navbar-nav .nav-link {
+        font-size: 13px;
+        
+    }
+    .menu-section .nav-item .btn-info {
+        font-size: 13px;
+        padding: 3px 10px;
+        margin-top: 12px;
+       
+    }
+    .menu-section .navbar-light .navbar-nav .nav-link:hover {
+        border-bottom: none;
+      
+    }
+    .our-department .title-department h1 {
+        font-size: 20px;
+        line-height: 30px;
+       
+    }
+    .our-department .title-department p {
+        font-size: 12px;
+        line-height: 25px;
+       
+    }
+
+    .limitless-section {
+        padding-top: 26px;
+    }
+    .limit {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .inner-text h1 {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 0px;
+    }
+    .inner-text p {
+        font-size: 13px;
+        width: 200px;
+    }
+    .flex{
+
+    }
+    .university-section {
+        padding: 0px 0px 30px;
+    }
+    .university-section .title {
+        padding-top: 0px;
+    }
+    .university-section .title h1 {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+    .widget {
+        width: 100%;
+        padding: 40px 0px;
+        background: #252c3a;
+        position: relative;
+        z-index: 1;
+    }
+    .widget .col-md-3 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .widget .inner-focus p {
+        font-size: 11px;
+        margin: 11px 0px;
+       
+    }
+    .widget .inner-focus .social-icon a {
+        font-size: 18px;
+        
+    }
+    .widget .inner-focus p {
+        font-size: 10px;
+        padding-bottom: 15px;
+    }
+    .widget .inner-feature h5 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-top: 10;
+    }
+    .widget .inner-feature p {
+        font-size: 10px;
+        
+    }
+    .widget .inner-learning {
+        margin-top: 30px;
+    }
+    .widget .inner-learning h5 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .widget .list-group-item {
+        padding: 0px 0px;
+        font-size: 10px;
+       
+    }
+    .widget .inner-support {
+        margin-top: 20px;
+    }
+    .widget .inner-support h5 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .widget .inner-support p {
+        font-size: 10px;
+        margin: 15px 0px;
+    }
+    .widget .inner-support .btn-outline-success {
+        top: -8px;
+       
+    }
+    
+    .footer {
+        padding: 0px 0px;
+    }
+    
+    .footer .copyright {
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+    }
+    .text-right {
+        text-align: center!important;
+    }
+    .footer ul li {
+        font-size: 13px;
+        
+    }
+}
+
+
+
+    @media (min-width: 320px) and (max-width: 480px) {
+  
+        .vh-950 {
+        min-height: 265px;
+    }
+    .banner-content {
+        padding-top: 140px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .banner-content h1 {
+        font-size: 18px;
+        line-height: 28px;
+        color: #252c3a;
+    }
+    .banner-content p {
+        font-size: 13px;
+        line-height: 20px;
+       
+    }
+    .banner-content .btn-info {
+        font-size: 13px;
+        padding: 5px 10px;
+        margin-top: 6px;
+        
+    }
+    .menu-section .navbar-light .navbar-nav .active>.nav-link {
+        font-size: 13px;
+       
+    }
+    .menu-section .navbar-light .navbar-nav .nav-link {
+        font-size: 13px;
+        
+    }
+    .menu-section .nav-item .btn-info {
+        font-size: 13px;
+        padding: 3px 10px;
+        margin-top: 12px;
+       
+    }
+    .menu-section .navbar-light .navbar-nav .nav-link:hover {
+        border-bottom: none;
+      
+    }
+    .our-department .title-department {
+        margin-top: 50px;
+    }
+    .our-department .title-department h1 {
+        font-size: 20px;
+        line-height: 30px;
+       
+    }
+    .our-department .title-department p {
+        font-size: 12px;
+        line-height: 25px;
+       
+    }
+
+    .limitless-section {
+        padding-top: 26px;
+    }
+    .limit {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    .inner-text h1 {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 0px;
+    }
+    .inner-text p {
+        font-size: 13px;
+        width: 200px;
+    }
+    .flex{
+
+    }
+    .university-section {
+        padding: 0px 0px 30px;
+    }
+    .university-section .title {
+        padding-top: 0px;
+    }
+    .university-section .title h1 {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+    .widget {
+        padding: 40px 0px;
+        text-align: center;
+    }
+
+    .widget .inner-focus p {
+        font-size: 13px;
+        padding-bottom: 15px;
+    }
+ 
+    .widget .inner-focus .social-icon a {
+        font-size: 18px;
+        
+    }
+    
+    .widget .inner-feature h5 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .widget .inner-feature p {
+        font-size: 13px;
+    }
+    .widget .inner-learning {
+        margin-top: 18px;
+    }
+    .widget .inner-learning h5 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .widget .list-group-item {
+        padding: 0px 0px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .widget .inner-support {
+        margin-top: 20px;
+    }
+    .widget .inner-support h5 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .widget .inner-support p {
+        font-size: 13px;
+        margin: 15px 0px;
+    }
+    .widget .inner-support .btn-outline-success {
+        top: 32px;
+        right: 37%;
+    }
+    
+    .footer {
+        padding: 0px 0px;
+    }
+    
+    .footer .copyright {
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+    }
+    .text-right {
+        text-align: center!important;
+    }
+    .footer ul li {
+        font-size: 13px;
+        
+    }
+}
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
